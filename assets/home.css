@@ -1,0 +1,131 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: rgb(0, 0, 0);
+}
+h1 {
+  text-align: center;
+  padding: 1rem 1rem;
+}
+.Todosection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0rem;
+  background-color: #ffffff;
+  width: 80%;
+  margin: auto;
+}
+.main-container {
+  background-color: lightgray;
+  border-radius: 1.5rem;
+  padding: 1rem 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.descrip {
+  background-color: #50e4d7;
+  height: 3rem;
+  width: 30rem;
+  font-size: 1rem;
+  padding-left: 1rem;
+  border: 0px;
+  outline: none;
+}
+.selection-fase h5 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0.5rem 1rem;
+}
+.selection-fase select {
+  font-size: 1rem;
+  height: 3rem;
+  width: 14rem;
+  outline: none;
+  padding: 0rem 1.5rem;
+  background-color: #46a9eb;
+}
+.selection-fase input {
+  font-size: 1rem;
+  height: 3rem;
+  width: 14rem;
+  outline: none;
+  padding: 0rem 1.5rem;
+  background-color: #4ee0eb;
+}
+.add-btn-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+.add-taks {
+  background-color: #6b85ad;
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+  margin-right: 1rem;
+}
+.deletes {
+  background-color: #7a0000;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.9rem 0.5rem;
+  margin-left: 11.5rem;
+}
+.blue {
+  color: rgb(6, 14, 99);
+  font-size: 2rem;
+  padding: 1rem 1rem;
+}
+.red {
+  font-size: 2rem;
+  padding: 1rem 1rem;
+  color: #040658;
+}
+
+.add-task-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid; */
+  /* margin:3rem 0rem ; */
+  padding: 1rem 1rem;
+}
+.task-details-check {
+  /* padding: 1rem 1rem; */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex: 2;
+}
+
+.task-details-check input {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 1rem;
+}
+
+.catagory-sec {
+  padding: 1.5rem 0.5rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  background-color: rgb(163, 238, 243);
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+/* <% for(let i of list) {%>
+  <div class="add-task-section">
+    <div class="task-details-check">
+      <input type="checkbox">
+      <div>
+      <h3><%=i.task%></h3>
+       <h5><%=i.duedate%></h5>
+     </div>
+    </div>
+    <div>
+       <div class="catagory-sec"><%=i.crtegory%></div>
+    </div>
+ </div>
+  
+<% } %> */
